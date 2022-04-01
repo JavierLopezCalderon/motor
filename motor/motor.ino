@@ -39,7 +39,7 @@ void loop() {
     contador++;
     EEPROM.put(0, contador);
   }
-  if(contador =< limiteContador && fin == 0){
+  if(contador <= limiteContador && fin == 0){
     lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("FIN");
